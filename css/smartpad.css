@@ -1,0 +1,59 @@
+.smart-pad {
+	padding-top: 70px
+}
+
+.bg {
+	height: 400px;
+	width: 100%;
+	border-bottom: 1px solid #EDE500;
+	background-image: url('../img/tablet.jpg');
+	background-size: cover;
+	background-position: right
+}
+
+.smart-desc {
+	margin-bottom: 75px;
+	font-size: 1.4rem
+}
+
+.main-desc {
+	cursor: default;
+	text-align: left;
+	padding: 50px 50px;
+	background: #EDEDED;
+	border-radius: 30px;
+	box-shadow: 5px 5px 5px #D4D4D4;
+}
+
+.main-desc ul {
+	margin-left: 0;
+}
+
+.main-desc li {
+	transition: .3s ease;
+	list-style: none;
+	border-left: 4px solid #D4D4D4;
+	padding-left: 25px;
+	margin-bottom: 25px	
+}
+
+.main-desc li:hover {
+	color: #464648;
+	border-left-width: 8px;
+	border-left-color: #03bbf1;
+}
+
+@media screen and (max-width: 39.9375em) {
+	.main-desc li {
+		padding-left: 5px
+	}
+}
+
+@media screen and (min-width: 64em) {
+	.smart-pad {
+		padding-top: 100px
+	}
+	.bg {
+		background-position: 60%
+	}
+}

@@ -1,0 +1,93 @@
+h1, h2 {
+	margin: 0px 0px 25px 0px;
+}
+
+.bg {
+	padding-top: 70px;
+	height: 400px;
+	width: 100%;
+	border-bottom: 1px solid #EDE500;
+	background-image: url('../img/disp_mob.jpg');
+	background-size: cover;
+	background-position: 60%
+}
+
+.dispositivos img {
+	padding-bottom: 100px
+}
+
+.desc-disp {
+	font-family: 'Roboto Slab', serif;
+	font-size: 1.3rem;
+	margin-bottom: 0
+}
+
+.main-desc {
+	font-size: 1.4rem;
+	margin-bottom: 70px
+}
+
+.dispositivos {
+	padding-top: 70px
+}
+
+.bg-dispositivos {
+	padding-top: 100px;
+	background: #EDEDED;
+	border-radius: 30px;
+	box-shadow: 5px 5px 5px #D4D4D4
+}
+
+.main-devices-mobile {
+	margin-top: 0px;
+	cursor: default
+}
+
+.device-mobile {
+	cursor: pointer
+}
+
+.footer, .footer-mobile {
+	margin-top: 50px
+}
+
+#back-top {
+	position: fixed;
+	bottom: 125px;
+	right: 1%
+}
+
+
+@media screen and (max-width: 39.9375em) {
+	h2 {
+		font-size: 1.2rem
+	}
+
+	h1, h2 {
+		margin: 0
+	}
+
+	.dispositivos {
+		display: none
+	}
+}
+
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+	
+}
+
+@media screen and (min-width: 64em) {
+	.dispositivos {
+		padding-top: 100px
+	}
+
+	h1, h2 {
+		font-size: 2rem
+	}
+
+	.bg {
+		height: 450px;
+		background-image: url('../img/disp.jpg');
+		background-position: 50% 39%
+	}
+}
